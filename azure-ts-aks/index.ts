@@ -49,7 +49,7 @@ const cluster = new containerservice.ManagedCluster(managedClusterName, {
     enableRBAC: true,
     kubernetesVersion: "1.25.4",
     linuxProfile: {
-        adminUsername: "testuser",
+        adminUsername: "philipz",
         ssh: {
             publicKeys: [{
                 keyData: sshKey.publicKeyOpenssh,
