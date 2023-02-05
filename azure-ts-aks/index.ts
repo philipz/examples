@@ -47,7 +47,7 @@ const cluster = new containerservice.ManagedCluster(managedClusterName, {
     }],
     dnsPrefix: resourceGroup.name,
     enableRBAC: true,
-    kubernetesVersion: "1.24.0",
+    kubernetesVersion: "1.25.4",
     linuxProfile: {
         adminUsername: "testuser",
         ssh: {
